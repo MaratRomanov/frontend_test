@@ -1,0 +1,45 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: whitesmoke;
+}
+
+.loader{
+  color: whitesmoke
+}
+
+.App-search{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.waterbases{
+  height: 200px;
+  width: 450px;
+  overflow-y: scroll;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+input{
+  outline: none;
+}
+
+.base{
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.base:hover{
+  background-color: #6c7382
+}
